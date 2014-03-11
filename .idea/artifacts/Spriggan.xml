@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="Spriggan">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spriggan</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="org.virtualAsylum.spriggan.Main" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="Spriggan" />
+        <option name="vendor" value="Virtual Asylum" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="VirtualAsylum.Spriggan.jar">
+        <element id="module-output" name="VirtualAsylum.Spriggan2" />
+        <element id="module-output" name="Engine" />
+        <element id="library" level="application" name="JGIT" />
+        <element id="library" level="application" name="Jackson JSON" />
+      </element>
+    </root>
+  </artifact>
+</component>
